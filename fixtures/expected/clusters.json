@@ -1,0 +1,161 @@
+{
+  "_rules": "URLs in this file are origin-relative paths. verify prefixes them with the origin of the crawl output. Ignore keys starting with underscore.",
+  "clusters": [
+    {
+      "canonical_url": "/de/p/ghost",
+      "members": [
+        {
+          "url": "/de/p/ghost",
+          "locale": "de",
+          "title": "Restposten",
+          "content_hash": "596a0e0649482470eaf8e1d085d124b3627ea2b5c6d0cd56d021e6a37e859b4d",
+          "last_updated": "2025-11-01"
+        }
+      ],
+      "aliases": [],
+      "dangling_hreflang": [
+        {
+          "from": "/de/p/ghost",
+          "to": "/en/p/ghost"
+        }
+      ]
+    },
+    {
+      "canonical_url": "/en/p/kettle",
+      "members": [
+        {
+          "url": "/de/p/kettle",
+          "locale": "de",
+          "title": "Stahlkessel",
+          "content_hash": "baa4c161904c7115bd0071c77f53bffc360bb6a074dcfa51973b8fa12150ea68",
+          "last_updated": "2026-01-10"
+        },
+        {
+          "url": "/en/p/kettle",
+          "locale": "en",
+          "title": "Steel Kettle",
+          "content_hash": "e3d4a5dd3ecb80944ff2b9ac2688b3d047a04223d6f9d4c814cdaab1d6dc2651",
+          "last_updated": "2026-01-10"
+        },
+        {
+          "url": "/fr/p/kettle",
+          "locale": "fr",
+          "title": "Bouilloire en acier",
+          "content_hash": "b6e4de9ad5cd128085db6c5f377fc19814c7d8a17a60027465742a86d09c8168",
+          "last_updated": "2026-01-10"
+        }
+      ],
+      "aliases": [
+        "/ja/p/kettle",
+        "/p/kettle"
+      ],
+      "dangling_hreflang": []
+    },
+    {
+      "canonical_url": "/en/p/lamp",
+      "members": [
+        {
+          "url": "/de/p/lamp",
+          "locale": "de",
+          "title": "Schreibtischlampe",
+          "content_hash": "88e50c899449a08a56c32384e365654dacbeb1ed1fa01657e89591ce7d812ae3",
+          "last_updated": "2026-04-01"
+        },
+        {
+          "url": "/en/p/lamp",
+          "locale": "en",
+          "title": "Desk Lamp",
+          "content_hash": "c28245fb5f6efba99c809a1ef859b1533d2bd12e075f7ff1f757e9873ff7738f",
+          "last_updated": "2026-04-01"
+        },
+        {
+          "url": "/fr/p/lamp",
+          "locale": "fr",
+          "title": "Lampe de bureau",
+          "content_hash": "ac8f9cd728b14ccfd29b9fed2402bc953fa9af4c8c21e6f5805d2dad1ddb7ae8",
+          "last_updated": "2026-04-01"
+        }
+      ],
+      "aliases": [],
+      "dangling_hreflang": [
+        {
+          "from": "/de/p/lamp",
+          "to": "/en/p/lamp-old"
+        }
+      ]
+    },
+    {
+      "canonical_url": "/en/p/mug",
+      "members": [
+        {
+          "url": "/de/p/mug",
+          "locale": "de",
+          "title": "Blaue Tasse",
+          "content_hash": "2cbb432743ff9854f0686b9717786cf45fa4196e4a4c63348f63950b8e7cbe8f",
+          "last_updated": "2026-02-01"
+        },
+        {
+          "url": "/en/p/mug",
+          "locale": "en",
+          "title": "Blue Mug",
+          "content_hash": "6478669d43ab386654e6f24349fb82f7183084cdc287714a89e683aed90efe14",
+          "last_updated": "2026-02-01"
+        },
+        {
+          "url": "/fr/p/mug",
+          "locale": "fr",
+          "title": "Tasse bleue",
+          "content_hash": "3baa085b09c7581e6fcff055821fcc4f89cb10f60d7585fadab849e915f3c40f",
+          "last_updated": "2026-02-01"
+        },
+        {
+          "url": "/ja/p/mug",
+          "locale": "ja",
+          "title": "青いマグ",
+          "content_hash": "189b2fcc30acb074ed5a2f6ec09259ecfc6b851cf2810458334089ec79b8c656",
+          "last_updated": "2026-02-01"
+        }
+      ],
+      "aliases": [],
+      "dangling_hreflang": []
+    },
+    {
+      "canonical_url": "/en/p/notebook",
+      "members": [
+        {
+          "url": "/en/p/notebook",
+          "locale": "en",
+          "title": "Notebook",
+          "content_hash": "7fe94a9d9a4dc47d33a9a201bd3089833396c0861de6635cbb2f8762ebc38fd6",
+          "last_updated": "2026-03-01"
+        },
+        {
+          "url": "/fr/p/notebook",
+          "locale": "fr",
+          "title": "Carnet",
+          "content_hash": "f83011605cd84dbdeb15b7de3b281872c616618a8b5dba32556dfbc21ef6e77d",
+          "last_updated": "2026-03-01"
+        }
+      ],
+      "aliases": [],
+      "dangling_hreflang": []
+    }
+  ],
+  "report": {
+    "soft_404": [
+      "/en/p/ghost",
+      "/fr/p/ghost"
+    ],
+    "http_404": [
+      "/en/p/lamp-old",
+      "/es/p/ghost"
+    ],
+    "sitemap_stale": [
+      {
+        "url": "/en/p/mug",
+        "sitemap_lastmod": "2026-08-01",
+        "meta_last_updated": "2026-02-01"
+      }
+    ]
+  }
+}
